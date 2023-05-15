@@ -84,7 +84,7 @@ h2 { font-size: 35px; font-weight: 900; margin-bottom: 20px; }
     .img-one, .img-three { width: 100%; border-radius: 20px;}
     .main-one_container, .main-three_container {margin: 100px 20px 0px 20px; padding: 0px;max-width: 600px; align-items: center; }
     .nav-item { display: none;}
-    .nav-item.active { display: flex; }
+    .nav-item.activee { display: flex; }
 
     .menu { display: block;}
     .head__container { flex-direction: column; }
