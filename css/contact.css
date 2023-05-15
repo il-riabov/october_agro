@@ -19,9 +19,9 @@ a { color: #242424;}
 .burger { width: 30px; }
 
 .burger-open { display: block; }
-.burger-open.active { display: none; }
+.burger-open.activee { display: none; }
 .burger-close { display: none;}
-.burger-close.active { display: block; }
+.burger-close.activee { display: block; }
 /* --- */
 
 .main-one { width: 100%; display: flex; align-items: center; justify-content: center;
