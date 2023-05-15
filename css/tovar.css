@@ -24,9 +24,9 @@ body::-webkit-scrollbar-thumb {
 .burger { width: 30px; }
 
 .burger-open { display: block; }
-.burger-open.active { display: none; }
+.burger-open.activee { display: none; }
 .burger-close { display: none;}
-.burger-close.active { display: block; }
+.burger-close.activee { display: block; }
 
 
 .section { width: 100%; display: flex; align-items: center; flex-direction: column;
@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%; border: none; text-align: left; outline: none; transition: 0.4s; border-radius: 15px 15px 15px 15px;}
 
 .accordion:hover { background-color: #ccc; }
-.activee { border-radius: 15px 15px 0px 0px; border: 1px solid gray;border-bottom: none; }
+.active { border-radius: 15px 15px 0px 0px; border: 1px solid gray;border-bottom: none; }
 .accordion:after { content: '\002B'; color: #777; font-weight: bold;
     float: right; margin-left: 5px; }
 .active:after { content: "\2212"; }
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb {
     .accordion { font-size: 25px; }
 
     .nav-item { display: none;}
-    .nav-item.active { display: flex; }
+    .nav-item.activee { display: flex; }
 
     .menu { display: block;}
     .head__container { flex-direction: column; }
