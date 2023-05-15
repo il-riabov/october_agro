@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb {
     transition: max-height 0.5s ease-out;}
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
     .input_form { width: 200px; }
     .accordion { font-size: 22px; }
 
