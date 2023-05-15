@@ -65,7 +65,7 @@ h2 { font-size: 50px; font-weight: 900; margin-bottom: 20px;}
 
 
     .nav-item { display: none;}
-    .nav-item.active { display: flex; }
+    .nav-item.activee { display: flex; }
 
     .menu { display: block;}
     .head__container { flex-direction: column; }
