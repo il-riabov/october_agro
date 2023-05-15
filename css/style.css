@@ -16,7 +16,7 @@ body::-webkit-scrollbar-thumb {
 .nav-item { display: flex;
 }
 .tovar-href { width: 150px; }
-.href-item { font-weight: 900; transition: all 0.5s ease;  margin: 0px 20px; display: flex; align-items: center;}
+.href-item { font-weight: 900; transition: all 0.5s ease;  margin: 0px 20px; display: flex; align-items: center; text-align: center;}
 .href-item:hover { color: rgb(131, 136, 141); }
 
 .menu { display: none; margin-left: 15px;}
