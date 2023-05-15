@@ -1,7 +1,7 @@
 $('.burger-open').click(function() {
-    $('.burger-open').toggleClass('active')
-    $('.burger-close').toggleClass('active');
-    $('.nav-item').toggleClass('active');
+    $('.burger-open').toggleClass('activee')
+    $('.burger-close').toggleClass('activee');
+    $('.nav-item').toggleClass('activee');
 })
 
 $('.burger-close').click(function() {
