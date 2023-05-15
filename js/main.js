@@ -5,9 +5,9 @@ $('.burger-open').click(function() {
 })
 
 $('.burger-close').click(function() {
-    $('.burger-open').toggleClass('active')
-    $('.burger-close').toggleClass('active');
-    $('.nav-item').toggleClass('active');
+    $('.burger-open').toggleClass('activee')
+    $('.burger-close').toggleClass('activee');
+    $('.nav-item').toggleClass('activee');
 })
 
 var card = document.getElementsByClassName("card");
