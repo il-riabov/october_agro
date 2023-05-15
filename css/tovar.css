@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 680px) {
     .input_form { width: 200px; }
-    .accordion { font-size: 25px; }
+    .accordion { font-size: 22px; }
 
     .nav-item { display: none;}
     .nav-item.activee { display: flex; }
