@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%; border: none; text-align: left; outline: none; transition: 0.4s; border-radius: 15px 15px 15px 15px;}
 
 .accordion:hover { background-color: #ccc; }
-.active { border-radius: 15px 15px 0px 0px; border: 1px solid gray;border-bottom: none; }
+.activee { border-radius: 15px 15px 0px 0px; border: 1px solid gray;border-bottom: none; }
 .accordion:after { content: '\002B'; color: #777; font-weight: bold;
     float: right; margin-left: 5px; }
 .active:after { content: "\2212"; }
