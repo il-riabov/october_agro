@@ -42,32 +42,35 @@ const CHAT_ID = "-1001935431679";
 const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
 
 document.getElementById('form').addEventListener('submit', function(e) {
-  e.preventDefault();          
-  message = `Заявка с сайта\n\n`;
-  message += `Карточка: ${txt_title}\n`;
-  message += `Клиент:  ${ this.name.value }\n`;
-  message += `Email:  ${ this.email.value }\n`;
-  message += `Телефон:  ${ this.telephone.value }\n`;
-  message += `Сообщение:  ${ this.question.value }\n`;
-  axios.post(URI_API, {
-      chat_id: CHAT_ID,
-      parse_mod: 'html',
-      text: message
-  })
-  .then((res) => {
-      this.name.value = "";
-      this.email.value = "";
-      this.telephone.value = "";
-      this.question.value = "";
-      $('.block_form').css('display', 'none')
-      $('.block_submitted-form').css('display', 'block')
-  })
-  .catch((err) => {
+  e.preventDefault();         
+  if ($('.tel-inp').val().length == 19) {
+    message = `Заявка с сайта\n\n`;
+    message += `Карточка: ${txt_title}\n`;
+    message += `Клиент:  ${ this.name.value }\n`;
+    message += `Email:  ${ this.email.value }\n`;
+    message += `Телефон:  ${ this.telephone.value }\n`;
+    message += `Сообщение:  ${ this.question.value }\n`;
+    axios.post(URI_API, {
+        chat_id: CHAT_ID,
+        parse_mod: 'html',
+        text: message
+    })
+    .then((res) => {
+        this.name.value = "";
+        this.email.value = "";
+        this.telephone.value = "";
+        this.question.value = "";
+        $('.block_form').css('display', 'none')
+        $('.block_submitted-form').css('display', 'block')
+     })
+    .catch((err) => {
       console.warn(err);
-  })
-  .finally(() =>{
+    })
+    .finally(() =>{
       console.log('Конец')
-  })
+    })
+  }
+  else { alert('номер телефона введён не верно') }
 })
 
 $('.btn_form_ok').click(function() { 
