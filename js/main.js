@@ -32,7 +32,7 @@ $(".btn-close").click(function() {
     $('.background_form').css('display', 'none');
     $('.forms-blocks').css('display', 'none');
     $('.block_form').css('display', 'none');
-    $('.input_form').value = "";
+    $('.input_form').val('');
 
     title_form.textContent = "";  
 })
