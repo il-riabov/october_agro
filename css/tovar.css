@@ -1,4 +1,10 @@
-body { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@font-face {
+    font-family: "cal";  
+    src: url("../font/calibri.ttf");
+    src: url("../font/calibri_bold.ttf");
+} 
+
+body { font-family: cal;
     font-size: 20px; cursor: default; 
 }
 a { color: #242424;}
